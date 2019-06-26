@@ -8,11 +8,13 @@ namespace AutomatedTelletMachine.Controllers
 {
     public class HomeController : Controller
     {
+        // GET /home/index  -- Routing
         public ActionResult Index()
         {
             return View();
         }
 
+        //GET /home/about  -- Routing
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
